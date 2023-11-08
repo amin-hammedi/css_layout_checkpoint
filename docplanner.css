@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+body header nav img {
+  height: 33px;
+  width: 268px;
+  margin-top: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-size: 15px;
+  color: #ababab;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 252px;
+  list-style: none;
+  font-family: roboto, "Courier New", Courier, monospace;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 20px 0px rgba(158, 152, 152, 0.75);
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(158, 152, 152, 0.75);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(158, 152, 152, 0.75);
+  height: 220px;
+  width: 220px;
+  line-height: 40px;
+  padding-top: 15px;
+  list-style: none;
+  border-radius: 20px;
+  margin: 0 0 0 -100;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.162);
+  -webkit-box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.163);
+  -moz-box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.162);
+  z-index: 1000;
+}
+.menu-item:hover {
+  color: #00b39b;
+}
+.menu {
+  cursor: pointer;
+}
+.menu-item:hover .drop-menu {
+  display: flex;
+  flex-direction: column;
+}
+.drop-menu-items {
+  font-size: 15px;
+  font-family: roboto, "Courier New", Courier, monospace;
+  color: #ababab;
+  width: 220px;
+  padding: 0px 16px 0px 16px;
+  margin-left: -35px;
+}
+.drop-menu-items:hover {
+  color: #00b39b;
+  background-color: #d0cece;
+}
+.intro {
+  margin: 80px 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .intro img {
+  height: 39px;
+  width: 40px;
+}
+main .intro h1 {
+  margin: 34px 0 34px 0;
+  font-family: Work sans, "Courier New", Courier, monospace;
+  color: #00b39b;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.first {
+  height: 157px;
+  width: 497px;
+  padding: 10px 10px 10px 10px;
+}
+.first p {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 28px;
+  color: #747474;
+  width: 477px;
+  height: 112px;
+}
+.second {
+  height: 157px;
+  width: 497px;
+  padding: 10px 10px 10px 10px;
+}
+.second p {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 28px;
+  color: #747474;
+  width: 477px;
+  height: 112px;
+}
+.first-ps {
+  display: flex;
+  width: 1015px;
+  justify-content: space-around;
+  margin-left: -50px;
+}
+.patients {
+  height: 345px;
+  width: 311px;
+  padding: 22px 20px 0 20px;
+  background-color: #00ccb1;
+  border-radius: 10px;
+}
+.doctors {
+  height: 345px;
+  width: 311px;
+  padding: 22px 20px 0 20px;
+  background-color: #3d83df;
+  border-radius: 10px;
+}
+.clinics {
+  height: 345px;
+  width: 311px;
+  padding: 22px 20px 0 20px;
+  background-color: #1b2734;
+  border-radius: 10px;
+}
+.sections {
+  display: flex;
+  justify-content: center;
+  padding-left: 160px;
+  padding-right: 160px;
+  justify-content: space-evenly;
+  margin-top: -60px;
+}
+.patients img {
+  height: 24px;
+  width: 24px;
+  margin: 0 0 -6px 0;
+}
+.patients h1 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+  height: 34px;
+  width: 247px;
+  margin: 8px 0 8px 0;
+  color: white;
+}
+.patients h2 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 29px;
+  height: 86px;
+  width: 247px;
+  color: white;
+}
+.doctors img {
+  height: 24px;
+  width: 24px;
+  margin: 0 0 -6px 0;
+}
+.doctors h1 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+  height: 34px;
+  width: 247px;
+  margin: 8px 0 8px 0;
+  color: white;
+}
+.doctors h2 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 29px;
+  height: 86px;
+  width: 247px;
+  color: white;
+}
+.clinics img {
+  height: 24px;
+  width: 24px;
+  margin: 0 0 -6px 0;
+}
+.clinics h1 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 26px;
+  letter-spacing: -0.3px;
+  line-height: 34px;
+  height: 34px;
+  width: 247px;
+  margin: 8px 0 8px 0;
+  color: white;
+}
+.clinics h2 {
+  font-family: Work sans, "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 29px;
+  height: 86px;
+  width: 247px;
+  color: white;
+}
+.brands {
+  height: 156px;
+  width: 1015px;
+  margin: 40px 252px 50px 252px;
+  display: flex;
+}
+.brands h1 {
+  height: 101px;
+  width: 321px;
+  margin: 7px 0 9px 0;
+  padding: 0 26px 0 0;
+  font-family: work sans, "Courier New", Courier, monospace;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  word-spacing: 0px;
+  color: #00b39b;
+}
+.logos img {
+  height: 36px;
+  width: 100px;
+  margin: 5px 5px 5px 5px;
+  filter: grayscale(100%);
+}
+.logos {
+  width: 700px;
+}
+.brands svg {
+  width: 150px;
+  height: 36px;
+  margin: 5px 5px 5px 5px;
+  fill: gray;
+}
+.bg {
+  background: rgb(29, 97, 119);
+  background: linear-gradient(
+    205deg,
+    rgba(29, 97, 119, 1) 0%,
+    rgba(0, 179, 155, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.improvement h1 {
+  font-family: work sans, "Courier New", Courier, monospace;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 39px;
+  text-align: center;
+  color: #00b39b;
+  height: 78px;
+  margin-top: 20px;
+}
+.improvement p {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #747474;
+  height: 96px;
+  margin-top: 20px;
+}
+.improvement {
+  height: 196px;
+  margin: 0 166px 67px 166px;
+  padding: 0 20px 0 20px;
+}
+#patients-select {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 19px;
+  line-height: 25px;
+  text-decoration: underline solid rgb(255, 255, 255);
+  word-spacing: 0;
+  background-color: #ffffff00;
+  height: 40px;
+  padding: 0 38px 0 0;
+  cursor: pointer;
+  color: white;
+}
+#doctors-select {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 19px;
+  line-height: 25px;
+  text-decoration: underline solid rgb(255, 255, 255);
+  word-spacing: 0;
+  background-color: #ffffff00;
+  height: 40px;
+  padding: 0 38px 0 0;
+  cursor: pointer;
+  color: white;
+}
+#clinics-select {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 19px;
+  line-height: 25px;
+  text-decoration: underline solid rgb(255, 255, 255);
+  word-spacing: 0;
+  background-color: #ffffff00;
+  height: 40px;
+  padding: 0 38px 0 0;
+  cursor: pointer;
+  color: white;
+}
+#clinic-select {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 19px;
+  line-height: 25px;
+  text-decoration: underline solid rgb(255, 255, 255);
+  word-spacing: 0;
+  background-color: #ffffff00;
+  height: 40px;
+  padding: 0 38px 0 0;
+  cursor: pointer;
+  color: white;
+}
+.patients:hover {
+  background-color: #27dac2;
+}
+.doctors:hover {
+  background-color: #5195ed;
+}
+.clinics:hover {
+  background-color: #2c3846;
+}
+.logos img:hover {
+  filter: grayscale(0%);
+}
+.logos svg:hover {
+  fill: #00b39b;
+}
+.platform {
+  width: 100%;
+  background-image: url(https://cdn.discordapp.com/attachments/1093497830917816403/1108684129622564955/Sans_titre-2.png?ex=6555dd8e&is=6543688e&hm=87f0b8d950615182404c77f2e4fef005f538da441ec4f24b5d7f160b9d485b9b&);
+  height: 600px;
+  display: flex;
+}
+.text h1 {
+  font-family: work sans, "Courier New", Courier, monospace;
+  font-size: 34px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  line-height: 44px;
+  color: #00b39b;
+  height: 88px;
+  width: 477px;
+}
+.text p {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 24px;
+  color: #747474;
+  height: 48px;
+  width: 415px;
+  margin: 22px 0 22px 0;
+}
+.text {
+  padding-top: 52px;
+  margin-left: 252px;
+}
+.bubble {
+  height: 250px;
+  width: 228px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bubbles {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.fstsec {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.sndsec {
+  display: flex;
+  flex-direction: column;
+}
+.bubble-icon {
+  height: 40px;
+  width: 35px;
+  margin-top: 30px;
+}
+.bubble-title {
+  font-family: work sans, "Courier New", Courier, monospace;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  color: #00b39b;
+  height: 62px;
+  text-align: center;
+  width: 199px;
+  margin-top: 10px;
+}
+.bubble-text {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 13px;
+  line-height: 17px;
+  color: #747474;
+  width: 199px;
+  text-align: center;
+  margin-top: 10px;
+}
+.country {
+  background-color: white;
+  border-radius: 10px;
+  height: 340px;
+  width: 309px;
+  margin: 20px 26px 10px 30px;
+}
+.country:hover {
+  box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.162);
+  -webkit-box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.163);
+  -moz-box-shadow: 0px 9px 1px -5px rgba(142, 130, 130, 0.162);
+}
+.country-pic {
+  width: 309px;
+  height: 270px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.postcards {
+  width: 1315px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+}
+.couple {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 10px;
+}
+.couple button {
+  background-color: #3d83df;
+  border-radius: 10px;
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 10px;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 0;
+  vertical-align: middle;
+  height: 30px;
+  width: 104px;
+  padding: 10px 15px 10px 15px;
+}
+.couple p {
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: underline solid rgb(255, 255, 255);
+  word-spacing: 0;
+  height: 70px;
+  padding: 0px 20px 20px 20px;
+  cursor: pointer;
+  color: #747474;
+}
+.outro {
+  height: 101px;
+  width: 520px;
+  margin: 0 152px 0 152px;
+  max-width: 520px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.outro h1 {
+  font-family: work sans, "Courier New", Courier, monospace;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  word-spacing: 0;
+  height: 39px;
+  font-weight: 300;
+  margin: 0px 0 23px 0;
+  color: #000000;
+}
+.outro button {
+  background-color: #3d83df;
+  border-radius: 10px;
+  font-family: roboto, "Courier New", Courier, monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 10px;
+  color: white;
+  text-transform: uppercase;
+  word-spacing: 0;
+  vertical-align: middle;
+  height: 40px;
+  width: 210px;
+  padding: 10px 15px 10px 15px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  line-height: 20px;
+}
